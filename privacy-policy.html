@@ -1,211 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Nutri Logic AI</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0A1628;
-      color: #c8ddf0;
-      line-height: 1.7;
-      padding: 0;
-    }
-    header {
-      background: #0D1E38;
-      border-bottom: 1px solid #162035;
-      padding: 24px 0;
-      text-align: center;
-    }
-    .logo {
-      font-size: 28px;
-      font-weight: 900;
-      color: #EEF6FF;
-      letter-spacing: -0.5px;
-    }
-    .logo span { color: #A8FF3E; }
-    .tagline { font-size: 13px; color: #6B8CAE; margin-top: 4px; }
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 48px 24px 80px;
-    }
-    h1 {
-      font-size: 32px;
-      font-weight: 900;
-      color: #EEF6FF;
-      margin-bottom: 8px;
-      letter-spacing: -0.5px;
-    }
-    .meta {
-      font-size: 13px;
-      color: #6B8CAE;
-      margin-bottom: 40px;
-      padding-bottom: 24px;
-      border-bottom: 1px solid #162035;
-    }
-    h2 {
-      font-size: 16px;
-      font-weight: 800;
-      color: #A8FF3E;
-      margin: 36px 0 12px;
-      letter-spacing: 0.2px;
-    }
-    p, li {
-      font-size: 15px;
-      color: #8aaac8;
-      line-height: 1.8;
-      margin-bottom: 10px;
-    }
-    ul {
-      padding-left: 20px;
-      margin-bottom: 10px;
-    }
-    li { margin-bottom: 6px; }
-    .highlight {
-      background: #A8FF3E18;
-      border: 1px solid #A8FF3E28;
-      border-radius: 12px;
-      padding: 16px 20px;
-      margin: 24px 0;
-    }
-    .highlight p { color: #c8ddf0; margin: 0; }
-    a { color: #A8FF3E; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    footer {
-      text-align: center;
-      padding: 32px 24px;
-      border-top: 1px solid #162035;
-      color: #2E4A6A;
-      font-size: 13px;
-    }
-    footer a { color: #6B8CAE; }
-    .nav-link {
-      display: inline-block;
-      margin-top: 24px;
-      background: #0D1E38;
-      border: 1px solid #162035;
-      border-radius: 10px;
-      padding: 10px 20px;
-      font-size: 13px;
-      color: #6B8CAE;
-    }
-    .nav-link:hover { color: #EEF6FF; border-color: #A8FF3E44; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Nutri Logic AI</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Instrument+Sans:wght@400;500;600&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-  <div class="logo">Nutri <span>Logic</span> AI</div>
-  <div class="tagline">Your personal nutrition coach</div>
-</header>
-
-<div class="container">
-  <h1>Privacy Policy</h1>
-  <p class="meta">Last updated: April 2025 &nbsp;·&nbsp; Effective: April 2025</p>
-
-  <div class="highlight">
-    <p>We respect your privacy. This policy explains what data we collect, why we collect it, and how we protect it. We never sell your personal data.</p>
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="logo" href="index.html"><span class="logo-mark">🥗</span>Nutri Logic AI</a>
+  <div class="nav-links">
+    <a href="features.html">Features</a>
+    <a href="about.html">About</a>
+    <a href="support.html">Support</a>
+    <a class="nav-cta" href="index.html#download">Get the app</a>
   </div>
+</div></nav>
 
-  <h2>1. Information We Collect</h2>
-  <p>When you use Nutri Logic AI, we collect the following information:</p>
+<div class="wrap prose">
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 16 November 2026</p>
+
+  <p>This Privacy Policy explains how Nutri Logic AI ("the app", "we", "us"), operated by Eoin McMahon in Ireland, collects, uses, and protects your information. By using the app you agree to this policy.</p>
+
+  <h2>1. Information we collect</h2>
+  <h3>Account information</h3>
   <ul>
-    <li><strong>Account information:</strong> your name and email address</li>
-    <li><strong>Profile data:</strong> age, gender, height, weight, dietary preferences, and health goals you provide during setup</li>
-    <li><strong>Nutrition data:</strong> foods logged, meals scanned, hydration entries, and calorie history</li>
-    <li><strong>Device information:</strong> device type and operating system version for compatibility</li>
-    <li><strong>Authentication data:</strong> your login method (email/password or Google Sign-In)</li>
+    <li><strong>Email and password</strong> when you create an account, or your identity token when you sign in with Google or Apple. Passwords are handled by our authentication provider (Supabase) and are never visible to us.</li>
+    <li><strong>Name</strong>, if provided during sign-in or onboarding, used to personalise the app.</li>
   </ul>
-  <p>We do <strong>not</strong> collect payment information — this is handled entirely by Google Play or the Apple App Store.</p>
-
-  <h2>2. How We Use Your Information</h2>
-  <p>We use your information to:</p>
+  <h3>Profile and nutrition data</h3>
   <ul>
-    <li>Provide and personalise the App's nutrition tracking features</li>
-    <li>Generate AI-powered nutrition recommendations tailored to your goals</li>
-    <li>Sync your data securely across your devices</li>
-    <li>Send important account and service notifications</li>
-    <li>Improve the App's performance and accuracy over time</li>
-    <li>Comply with our legal obligations</li>
+    <li>Onboarding answers: age, biological sex, weight, height, goals, activity level, dietary preferences, and any medical conditions you choose to share. These are used solely to calculate your personalised nutrition plan.</li>
+    <li>Your food log, saved meals, hydration entries, and generated plan.</li>
   </ul>
-
-  <h2>3. AI and Third-Party Services</h2>
-  <p>Nutri Logic AI uses the following third-party services to operate:</p>
+  <h3>Health and activity data</h3>
   <ul>
-    <li><strong>Anthropic Claude API</strong> — processes meal descriptions and images to estimate nutritional content. Food descriptions and images you submit for analysis are sent to Anthropic's servers. Anthropic's privacy policy applies to this data.</li>
-    <li><strong>Supabase</strong> — stores your account and nutrition data securely in the cloud using industry-standard encryption.</li>
-    <li><strong>RevenueCat</strong> — manages your subscription status. We never see your payment details.</li>
-    <li><strong>Google Fit / Garmin</strong> — if you choose to connect these services, we read your daily activity data (steps, calories burned, heart rate) to adjust your calorie targets. We do not write to or modify your fitness data.</li>
+    <li>With your explicit permission, the app reads <strong>steps, active calories burned, and exercise minutes</strong> from Apple Health (iOS) or Health Connect (Android).</li>
+    <li>This data is read only — the app never writes to Apple Health or Health Connect.</li>
+    <li>Health data is used solely to adjust your daily calorie target and display your activity in the app. It is never sold, never used for advertising, and never shared with third parties for their own purposes.</li>
+  </ul>
+  <h3>Meal photos</h3>
+  <ul>
+    <li>Photos you take with the meal scanner are sent securely to Anthropic's Claude AI to analyse the food. Photos are processed to generate the nutrition breakdown and are not used to identify you.</li>
   </ul>
 
-  <h2>4. Data Storage and Security</h2>
-  <p>Your data is stored securely using Supabase, hosted on AWS infrastructure in the EU (Ireland region). We implement:</p>
+  <h3>Weight entries</h3>
   <ul>
-    <li>TLS encryption for all data in transit</li>
-    <li>AES-256 encryption for data at rest</li>
-    <li>Row-level security so users can only access their own data</li>
-    <li>Regular security reviews and dependency updates</li>
-  </ul>
-  <p>We retain your data for as long as your account is active. You can request deletion at any time.</p>
-
-  <h2>5. Data Sharing</h2>
-  <p>We do <strong>not sell</strong> your personal data to anyone, ever. We share data only with:</p>
-  <ul>
-    <li>Service providers necessary to operate the App (listed above), who are bound by data processing agreements</li>
-    <li>Law enforcement or regulatory bodies if required by applicable law</li>
-    <li>Successor entities in the event of a business merger or acquisition — you will be notified in advance</li>
+    <li>If you use the daily weigh-in, the weights you enter are stored in your account alongside your other nutrition data, so that your targets can be recalculated as your weight changes.</li>
+    <li>Weight entries are treated exactly like the rest of your profile data: never sold, never used for advertising, and never shared with third parties for their own purposes.</li>
+    <li>You can switch the weigh-in off at any time in Settings, under Body tracking.</li>
   </ul>
 
-  <h2>6. Your Rights (GDPR)</h2>
-  <p>If you are located in the EU or UK, you have the following rights under the General Data Protection Regulation:</p>
+  <h3>Progress photos</h3>
   <ul>
-    <li><strong>Access:</strong> request a copy of the personal data we hold about you</li>
-    <li><strong>Correction:</strong> request that we correct inaccurate or incomplete data</li>
-    <li><strong>Deletion:</strong> request that we delete your personal data ("right to be forgotten")</li>
-    <li><strong>Restriction:</strong> request that we restrict how we process your data</li>
-    <li><strong>Portability:</strong> receive your data in a machine-readable format</li>
-    <li><strong>Objection:</strong> object to processing based on legitimate interests</li>
+    <li>Progress photos are stored only on your own device. They are never uploaded to our servers, never sent to Anthropic or any other third party, and are never analysed by AI.</li>
+    <li>Because they are held on your device, they are not part of your account. They will not appear if you sign in on another phone, and they are removed when you uninstall the app.</li>
+    <li>You can delete any individual week, or all of your photos at once, in Settings under Body tracking. Deletion is immediate and permanent.</li>
+    <li>If you choose to share a daily summary, and you have switched on the option to offer your photos, the photos from your most recent set are placed inside the PDF you share. You are asked to confirm every time you share, and the answer is not remembered. Once you send that file, it is outside our control and subject to the privacy policy of whichever app you send it through.</li>
+    <li>The progress photo feature is off unless you switch it on.</li>
   </ul>
-  <p>To exercise any of these rights, contact us at <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a>. We will respond within 30 days.</p>
 
-  <h2>7. Data Deletion</h2>
-  <p>You can delete your account and all associated data at any time:</p>
+  <h3>Voice recordings</h3>
   <ul>
-    <li>Open the App → Settings → scroll to the bottom → tap <strong>"Delete account"</strong></li>
+    <li>When you log food by voice, your speech is converted to text on your device or by Apple's or Google's speech recognition service, under their own privacy policies. Only the resulting text is sent to Anthropic's Claude AI, to estimate the nutrition of the meal you described.</li>
+    <li>Audio recordings are never stored by us and are never sent to our servers. The microphone is only active while you are holding the voice logging screen open and have tapped to start.</li>
   </ul>
-  <p>This permanently removes your profile, food log, and all personal data from our servers. Encrypted backups may be retained for up to 90 days before permanent deletion.</p>
-  <p>You can also email <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a> to request data deletion without deleting your account.</p>
 
-  <h2>8. Children's Privacy</h2>
-  <p>Nutri Logic AI is not intended for children under 16 years of age. We do not knowingly collect personal data from children under 16. If you believe a child under 16 has created an account, please contact us immediately and we will delete the account and all associated data.</p>
-
-  <h2>9. Cookies and Tracking</h2>
-  <p>The App does not use advertising cookies, tracking pixels, or any third-party analytics that track you across other apps or websites. We use only essential session tokens required for authentication and app functionality.</p>
-
-  <h2>10. International Transfers</h2>
-  <p>Your data is stored in the EU (Ireland). If data is transferred outside the EU, it is subject to appropriate safeguards including Standard Contractual Clauses approved by the European Commission.</p>
-
-  <h2>11. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of material changes through the App or by email at least 14 days before they take effect. Continued use of the App after changes take effect constitutes acceptance of the updated policy.</p>
-
-  <h2>12. Contact and Data Controller</h2>
-  <p>Nutri Logic AI is the data controller for your personal information.</p>
-  <p>For privacy questions, data requests, or complaints:</p>
+  <h2>2. How we use your information</h2>
   <ul>
-    <li>Email: <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a></li>
+    <li>To create and secure your account.</li>
+    <li>To calculate and adapt your personalised calorie and macro plan.</li>
+    <li>To provide AI features: meal photo analysis, food lookup, coaching, and meal analysis. Your questions, food descriptions, and photos are processed by Anthropic's Claude AI via our secure server-side proxy.</li>
+    <li>To sync your data across your devices via our cloud database (Supabase).</li>
+    <li>To process Premium subscriptions via RevenueCat and the Apple App Store or Google Play.</li>
   </ul>
-  <p>If you are an EU/UK resident and are not satisfied with our response, you have the right to lodge a complaint with your local data protection authority (in Ireland: the Data Protection Commission at <a href="https://www.dataprotection.ie" target="_blank">dataprotection.ie</a>).</p>
 
-  <a href="terms-of-service.html" class="nav-link">→ Read our Terms of Service</a>
+  <h2>3. Who we share data with</h2>
+  <p>We do not sell your data. We share it only with the service providers required to run the app:</p>
+  <p><strong>Your consent to AI processing.</strong> The first time you open the app we ask whether you allow your information to be sent to Anthropic for AI analysis. Nothing is sent to Anthropic unless you agree. If you decline, or later switch it off under <em>Settings &rarr; AI features</em>, no further data is sent and the app continues to work for manual food logging, water tracking, activity syncing and your own calorie and macro targets. Photo scanning, voice logging, the nutrition coach and shopping lists require this processing and are turned off without it.</p>
+  <ul>
+    <li><strong>Supabase</strong> — authentication and encrypted cloud storage of your profile, plan, and logs.</li>
+    <li><strong>Anthropic (Claude AI)</strong> — generates the nutrition estimates, targets, coaching replies and shopping lists in the app. We send: meal photos; the text of voice descriptions and typed food queries; your profile details (the name you chose to be called, age, biological sex, height, weight, goal, activity level, dietary preference and any medical or hormonal conditions you choose to enter); and, when you generate a shopping list, the foods you have logged recently. Requests are routed through our own server so your account credentials are never exposed, and your email address and password are never sent. Anthropic does not use this data to train its models, and we never send it for advertising. Progress photos are never sent to Anthropic, or to anyone else — they stay on your device.</li>
+    <li><strong>RevenueCat</strong> — manages subscription status. Receives purchase receipts from Apple/Google, not your nutrition data.</li>
+    <li><strong>Apple / Google</strong> — process payments for subscriptions under their own privacy policies.</li>
+  </ul>
+
+  <h2>4. Data retention and deletion</h2>
+  <ul>
+    <li>Your data is retained while your account is active.</li>
+    <li>You can request deletion of your account and all associated data at any time by emailing <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a> from your account email. We will delete your data from our systems within 30 days.</li>
+    <li>Signing out removes your data from the device; local data is also cleared when the app is uninstalled.</li>
+    <li>Progress photos are held only on your device, so they are not covered by an account deletion request — there is nothing of them on our systems to delete. You remove them yourself in Settings under Body tracking, or by uninstalling the app.</li>
+  </ul>
+
+  <h2>5. Security</h2>
+  <p>Data is transmitted over encrypted connections (HTTPS/TLS) and stored with our providers using industry-standard encryption. AI requests are authenticated per user and processed server-side so that API credentials never live on your device.</p>
+
+  <h2>6. Your rights</h2>
+  <p>If you are in the European Economic Area or United Kingdom, you have the right to access, correct, export, restrict, or delete your personal data, and the right to lodge a complaint with a supervisory authority (in Ireland, the Data Protection Commission). To exercise any right, email <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a>.</p>
+
+  <h2>7. Children</h2>
+  <p>The app is not directed at children under 16 and we do not knowingly collect data from them. If you believe a child has created an account, contact us and we will delete it.</p>
+
+  <h2>8. Health disclaimer</h2>
+  <p>Nutri Logic AI provides general nutrition information and AI-generated estimates. It is not a medical device and does not provide medical advice. Consult a qualified professional before making significant dietary changes, particularly if you have a medical condition.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>We may update this policy from time to time. Material changes will be reflected by the date above and, where appropriate, notified in the app.</p>
+
+  <h2>10. Contact</h2>
+  <p>Eoin McMahon · Ireland<br>
+  <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a></p>
 </div>
 
-<footer>
-  <p>&copy; 2025 Nutri Logic AI. All rights reserved.</p>
-  <p style="margin-top:8px"><a href="terms-of-service.html">Terms of Service</a> &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
-</footer>
+<footer><div class="wrap foot">
+  <p>© 2026 Eoin McMahon · Nutri Logic AI</p>
+  <div class="foot-links">
+    <a href="privacy-policy.html">Privacy policy</a>
+    <a href="terms-of-service.html">Terms of service</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:support@nutrilogicai.com">support@nutrilogicai.com</a>
+  </div>
+</div></footer>
 
 </body>
 </html>
